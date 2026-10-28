@@ -4,7 +4,7 @@ A robust RESTful API for managing student records, built with **Node.js**, **Exp
 
 ---
 
-## 📌 Project Architecture
+## Project Architecture
 
 ```
 DCIT-26_LAB5_Express_and_MongoDB/
@@ -21,7 +21,7 @@ DCIT-26_LAB5_Express_and_MongoDB/
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Database-driven Persistence**: Fully persisted storage in MongoDB using Mongoose documents (no temporary in-memory arrays).
 - **Graceful Lifecycle**: Express server listens on port only after the MongoDB connection is verified and established.
@@ -30,7 +30,7 @@ DCIT-26_LAB5_Express_and_MongoDB/
 
 ---
 
-## 📋 Data Model (Student Schema)
+## Data Model (Student Schema)
 
 | Field | Type | Validation & Constraints | Description |
 | :--- | :--- | :--- | :--- |
@@ -42,7 +42,7 @@ DCIT-26_LAB5_Express_and_MongoDB/
 
 ---
 
-## ⚙️ Prerequisites & Setup
+## Prerequisites & Setup
 
 ### 1. Prerequisites
 - **Node.js** (v18.x or later recommended)
@@ -74,11 +74,11 @@ PORT=5000
 MONGODB_URI=mongodb://127.0.0.1:27017/lab5_students
 ```
 
-> ⚠️ **Security Warning**: The `.env` file contains local secrets and configurations. It is added to `.gitignore` and must never be committed to git.
+> **Security Warning**: The `.env` file contains local secrets and configurations. It is added to `.gitignore` and must never be committed to git.
 
 ---
 
-## 🏃 Running the Server
+## Running the Server
 
 ### Development Mode (with Nodemon hot-reloading)
 ```bash
@@ -98,7 +98,7 @@ Server is running and listening on port 5000
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 | Method | Endpoint | Description | Status Codes |
 | :--- | :--- | :--- | :--- |
@@ -111,7 +111,7 @@ Server is running and listening on port 5000
 
 ---
 
-## 🔍 Request & Response Examples
+## Request & Response Examples
 
 ### 1. Health Check
 - **Request:** `GET /api/health`
@@ -241,7 +241,7 @@ Server is running and listening on port 5000
 
 ---
 
-## 🧪 Testing with cURL
+## Testing with cURL
 
 ```bash
 # 1. Health check
@@ -269,7 +269,7 @@ curl -X DELETE http://localhost:5000/api/students/<STUDENT_ID>
 
 ---
 
-## 🛡️ Validation & Error Response Standards
+## Validation & Error Response Standards
 
 | Status Code | Scenario | Sample Response |
 | :--- | :--- | :--- |
@@ -279,5 +279,5 @@ curl -X DELETE http://localhost:5000/api/students/<STUDENT_ID>
 
 ---
 
-## 📜 License
+## License
 Educational project for DCIT 26.
