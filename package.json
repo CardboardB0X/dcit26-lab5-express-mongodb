@@ -1,10 +1,10 @@
 {
-  "name": "dcit26-lab5-express-mongodb",
+  "name": "lab5-student-api",
   "version": "1.0.0",
   "description": "Student Records REST API with Node.js, Express, MongoDB, and Mongoose",
   "main": "backend/server.js",
   "scripts": {
-    "dev": "node ./node_modules/nodemon/bin/nodemon.js backend/server.js",
+    "dev": "nodemon backend/server.js",
     "start": "node backend/server.js"
   },
   "dependencies": {

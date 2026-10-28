@@ -7,7 +7,7 @@ A robust RESTful API for managing student records, built with **Node.js**, **Exp
 ## Project Architecture
 
 ```
-DCIT-26_LAB5_Express_and_MongoDB/
+lab5-student-api/
 ├── backend/
 │   ├── models/
 │   │   └── Student.js        # Mongoose Schema & Student Model
@@ -52,8 +52,8 @@ DCIT-26_LAB5_Express_and_MongoDB/
 
 ### 2. Clone the Repository
 ```bash
-git clone https://github.com/CardboardB0X/DCIT-26_LAB5_Express_and_MongoDB.git
-cd DCIT-26_LAB5_Express_and_MongoDB
+git clone https://github.com/CardboardB0X/DCIT-26_LAB5_Express_and_MongoDB.git lab5-student-api
+cd lab5-student-api
 ```
 
 ### 3. Install Dependencies
