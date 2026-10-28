@@ -4,7 +4,7 @@
   "description": "Student Records REST API with Node.js, Express, MongoDB, and Mongoose",
   "main": "backend/server.js",
   "scripts": {
-    "dev": "nodemon backend/server.js",
+    "dev": "node ./node_modules/nodemon/bin/nodemon.js backend/server.js",
     "start": "node backend/server.js"
   },
   "dependencies": {
